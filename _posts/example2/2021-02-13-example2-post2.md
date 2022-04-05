@@ -1,13 +1,18 @@
 ---
 layout: post
-title: Introducing Hydejack 9
+title: Example2-post2
 image: 
   path: /assets/img/blog/jeremy-bishop@0,5x.jpg
 description: >
   Version 9 is the most complete version of Hydejack yet.
   Modernized design, big headlines, and big new features.
 sitemap: false
+categories:
+  - example2
 ---
+
+# 예시2 - 게시물 2!!! 이게 우선임!
+
 
 Version 9 is the most complete version of Hydejack yet.
 {:.lead}
