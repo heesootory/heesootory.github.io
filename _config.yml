@@ -25,13 +25,14 @@ title:                 Heesoo'tory
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  깃 블로그 만들기!!!
+  5개 언어(C/C++, C#, java, python, kotlin) 알고리즘 및 언어 공부중입니다.
+  Django와 spring 프레임워크를 공부중입니다.
 
 # A shorter description for the sidebar.
-tagline:               면접관이 조아하는 깃블로그
+tagline:               heesoo's developer history
 
 # A list of keywords for your blog
-keywords:              [C,JAVA]
+keywords:              [C, C++, C#, java, python, Kotlin, spring, Django]
 
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
