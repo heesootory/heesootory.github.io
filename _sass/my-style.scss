@@ -29,3 +29,20 @@
   width: 6rem; // inlineflex : Inline(Inline Block) 요소와 같은 성향(수평 쌓임)
   margin-left: -1px;
 }
+
+.content .avatar {        /* about에 있는 사진 속성 - 지킬 테마에 의해 고정되어있어서, 편집시 !important 붙여야 적용가능*/
+  float: right !important;
+  box-sizing: content-box;
+  border: 1rem solid var(--body-bg);
+  transition: border-color 1s ease;
+  margin-top: -1.5rem !important;
+  margin-right: -1rem !important;
+  width: 140px !important;
+  height: 200px !important;
+}
+
+.author-body-description{
+  margin-left: 20px !important;
+  margin-top: 20px !important;
+
+}
