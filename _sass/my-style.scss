@@ -176,3 +176,9 @@
 .submenu.menu-wrapper.hide{
   display: none;
 }
+
+//조회수 옆 링크 박스 없애기
+
+a::after{
+  display: none !important;
+}

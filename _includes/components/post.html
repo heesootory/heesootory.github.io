@@ -7,18 +7,27 @@
 
 <article id="post{{ post.id | replace:'/','-' }}" class="page post mb6" role="article">
   <header>
+
     <!--제목-->
     <h1 class="post-title flip-project-title">
       {% unless no_link_title %}<a href="{{ post.url | relative_url }}" class="flip-title">{% endunless %}
         {{ post.title }}
       {% unless no_link_title %}</a>{% endunless %}
     </h1>
+
     <!--부제목-->
     <h2 class="post-title flip-project-shubtitle">
       {% unless no_link_title %}<a href="{{ post.url | relative_url }}" class="flip-subtitle">{% endunless %}
         {{ post.subtitle }}
       {% unless no_link_title %}</a>{% endunless %}
     </h2>
+
+<!--게시물 생성시 Hits 생성-->
+    <!--블로그 조회수-->
+    <div style = "text-align: right;">
+      <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fheesootory.github.io&count_bg=%238A12CE&title_bg=%23080795&icon=johndeere.svg&icon_color=%23E7E7E7&title=%EC%A1%B0%ED%9A%8C%EC%88%98&edge_flat=false"/></a>
+  </div>
+
     <!--카테고리-->
     <div class="post-date">
       {% assign category_start     = "카테고리 : "     | default:" in " %} 
@@ -45,8 +54,8 @@
       {% unless no_link_title %}</a>{% endunless %}
       {% assign alt = '' %}
     {% endif %}{% endunless %}
+    
 
-    {% include components/message.html text=post.description hide=hide_description alt=alt %}
    
   </header>
 
