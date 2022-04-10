@@ -49,6 +49,8 @@
     {% include components/message.html text=post.description hide=hide_description alt=alt %}
    
   </header>
+
+
   <div class="markdown-body">
   {% if no_excerpt %}
     {{ post.content }}
@@ -67,3 +69,5 @@
   {% endif %}
 </div>
 </article>
+
+
