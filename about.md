@@ -3,16 +3,19 @@ layout: about
 image: /assets/me/me3.jpg
 description: >
   spring framework를 공부하고 있는 학생입니다.
-hide_description: true
+hide_description: false
 redirect_from:
   - /download/
 ---
 
 # About
+
 <!--author-->
-***
+
+---
+
 <center>
-<span style="font-size:170%;font-weight:bold"> 김현우
+<span style="font-size:170%;font-weight:bold"> 최희수
 </span>
 </center>
 <center>MAJOR : AI EENGINEERING</center>
