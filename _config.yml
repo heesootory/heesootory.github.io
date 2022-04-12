@@ -48,12 +48,16 @@ author:
 
 # Add links to the sidebar.
 menu:
-  - title: About
+  - title: About Me
     url: /about/
   - title: Posts
     url: /posts/
   - title: Example1
     url: /example1/
+  - title: Unix/Linux
+    url: /Unix/
+  - title: Algorithm
+    url: /algorithm/
   - title: Example2
     url: /example2/
   - title: Subcat
@@ -87,7 +91,7 @@ paginate_path: /:num/
 # Theme
 # ---------------------------------------------------------------------------------------
 
-#theme: jekyll-theme-hydejack
+theme: jekyll-theme-hydejack
 remote_theme: hydecorp/hydejack@v9
 
 # Customizaton
