@@ -10,7 +10,7 @@ slug: Unix
 
 # (Optional) Write a short (~150 characters) description of this featured tag.
 description: >
-  유닉스 수업 자료 정리
+  유닉스 컴공 수업 자료 정리- "유닉스 프로그래밍"
 
 # (Optional) You can disable grouping posts by date.
 # no_groups: true

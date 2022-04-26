@@ -1,21 +1,21 @@
 ---
-# Featured tags need to have either the `list` or `grid` layout (PRO only).
 layout: list
-
-# The title of the tag's page.
-title: Algorithm
-
-# The name of the tag, used in a post's front matter (e.g. tags: [<slug>]).
-slug: Algorithm
-
-# (Optional) Write a short (~150 characters) description of this featured tag.
+bigtitle: Algorithm
+slug: algorithm
+menu: true
+submenu: true
 description: >
-  알고리즘 문제 풀이
-
-# (Optional) You can disable grouping posts by date.
-# no_groups: true
-
-# Exclude this example category from the sitemap.
-# DON'T USE THIS SETTING IN YOUR CATEGORIES!
-sitemap: false
+  알고리즘 문제 풀이 정리.
 ---
+
+
+* [Basic_Implement]{:.heading.flip-title} -- 기초 구현.
+* [Graph]{:.heading.flip-title} --- 그래프 알고리즘
+* [DynamicProgramming]{:.heading.flip-title} --- 동적계획법 알고리즘
+
+[Basic_Implement]: /basic_implement/
+[Graph]: /graph/
+[DynamicProgramming]: /DynamicProgramming/
+
+
+
