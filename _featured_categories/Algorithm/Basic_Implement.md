@@ -1,6 +1,6 @@
 ---
 layout: list
-category: Algorithm
+category: algorithm
 bigtitle: Basic_Implement
 slug: Basic_Implement
 description: >

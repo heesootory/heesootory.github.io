@@ -1,17 +1,23 @@
-<div class="sidebar-sticky">
-    <div class="sidebar-about" style="margin-bottom: 10px;">
 
-         <!--블로그프로필 이미지(이더리움 마크)-->
-      {% if site.logo %}
-      <a class="no-hover" style="margin-bottom: 50px;" href="{{ '/' | relative_url }}" tabindex="-1">
-          <img src="{% include_cached smart-url url=site.logo %}" class="avatar" alt="{{ site.short_title | default:site.title }}" width="130" height="130" loading="lazy" />
-      </a>
-      {% endif %}
+
+<!-- 왼쪽 사이드 바  - sidebar_sticky!!!!!-->
+
+<div class="sidebar-sticky" style = "padding-bottom: 120px;">
+
+    <!--프로필 마크, blog이름, description까지 묶음div-->
+    <div class="sidebar-about" style="margin-bottom: 20px;">
+
+    <!--블로그프로필 이미지(이더리움 마크)-->
+    {% if site.logo %}
+    <a class="no-hover" style="margin-bottom: 20px;" href="{{ '/' | relative_url }}" tabindex="-1">
+        <img src="{% include_cached smart-url url=site.logo %}" class="avatar" alt="{{ site.short_title | default:site.title }}" width="130" height="130" loading="lazy" />
+    </a>
+    {% endif %}
 
         <!--블로그타이틀-->
-        <div class="sidebartitle" style="margin-bottom: 130px;">
+        <div class="sidebartitle" style="margin-bottom: 10px;">
             <a class="sidebar-title" href="{{ '/' | relative_url }}">
-                <h2 class="h1">{{ site.short_title | default:site.title }}</h2>
+                <h2 class="h1" style = "margin-top: 70px;">{{ site.short_title | default:site.title }}</h2>
             </a>
         </div>
 

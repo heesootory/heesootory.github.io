@@ -13,22 +13,53 @@
   }
 }
 
-// for top-menu
+/* 
+사이트 전체 스크롤바!!!-----------------------------------------------------
+*/
+::-webkit-scrollbar { /*스크롤바의 너비*/  
+}
+::-webkit-scrollbar-thumb { /*스크롤바의 색상*/
+  color: teal; 
+  width: 3px;
+}
+::-webkit-scrollbar-track { /*스크롤바 트랙 색상*/ 
+  background-color: teal; 
+  width: 3px;
+}
+//--------------------------------------------------------------------------
+
+/*
+  상단 메뉴바 !!-------------------------------------------------------------
+  */
 .top-menu-wrapper{
   display: inline-block;
+  
 }
 .top-menu{
   overflow-x: auto; // overflowx 속성은 x 축, 즉 왼쪽과 오른쪽의 내용이 더 길 때(가로),
   overflow-y: hidden; // overflowy 속성은 y 축, 즉 위와 아래의 내용이 더 길때 (세로) 어떻게 보일지 선택하는 속성
   white-space: nowrap; // whitespace 는 스페이스와 탭, 줄바꿈, 자동줄바꿈을 어떻게 처리할지 정하는 속성, nowrap :병합
 }
-// for top-menu
+
 .top-menu.nav-btn{
   border: none;
   display: inline-flex; // Flex 는 요소의 크기가 불분명하거나 동적인 경우에도, 각 요소를 정렬할 수 있는 효율적인 방법을 제공, Inline 특성의 Flex Container 를 정의
   width: 6rem; // inlineflex : Inline(Inline Block) 요소와 같은 성향(수평 쌓임)
   margin-left: -1px;
+  transition: background-color 1s ease-in-out
 }
+
+.top-menu.nav-btn:hover{
+  background-color:teal;
+}
+//검색창 가장 우측으로.
+.content .nav-span{
+  position: absolute;
+  right:0;
+}
+
+//------------------------------------------------------------------------
+
 
 .content .avatar {        /* about에 있는 사진 속성 - 지킬 테마에 의해 고정되어있어서, 편집시 !important 붙여야 적용가능*/
   float: right !important;
@@ -263,3 +294,4 @@ a::after{
 .list-post li.h6{
   margin-top: 0 !important;
 }
+

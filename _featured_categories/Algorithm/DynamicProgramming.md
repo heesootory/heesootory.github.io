@@ -1,6 +1,6 @@
 ---
 layout: list
-category: Algorithm
+category: algorithm
 bigtitle: DynamicProgramming
 # slug에 표시된, _posts의 폴더 ,list가 반영
 slug: DP
@@ -10,5 +10,5 @@ description: >
 related_posts:
     - 
 list: false      
-order: 2
+order: 3
 ---

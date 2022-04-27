@@ -1,6 +1,6 @@
 ---
 layout: list
-category: Algorithm
+category: algorithm
 bigtitle: Graph
 slug: Graph
 description: >
@@ -9,5 +9,5 @@ description: >
 related_posts:
     - 
 list: true      
-order: 3
+order: 2
 ---

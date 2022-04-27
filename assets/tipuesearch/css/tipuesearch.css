@@ -38,10 +38,10 @@ http://www.tipue.com/search
 #tipue_search_input
 {
      color: #333;
-     max-width: 170px;        /* 최대너비 지정*/
+     max-width: 130px;        /* 최대너비 지정*/
      max-height: 20px;        /* 최대높이 지정*/
 	padding: 15px;
-	border: 2px solid #ad4cc7;
+	border: 2px solid teal;
 	border-radius: 0;
 	-moz-appearance: none;
 	-webkit-appearance: none;

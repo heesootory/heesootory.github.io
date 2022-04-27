@@ -52,8 +52,12 @@ menu:
     url: /about/
   - title: Posts
     url: /posts/
+  - title: Language
+    url: /language/
   - title: Django
     url: /django/
+  - title: Spring
+    url: /spring/
   - title: Unix/Linux
     url: /unix/
   - title: Algorithm
@@ -423,11 +427,11 @@ jekyll_compose:
         - title: Project Link
           url: https://example.com
 
-tipue_search:
-  include:
-    pages: false
-    collections: []
-  exclude:
-    files: []
-    categories: []
-    tags: []
+  tipue_search:
+    include:
+      pages: false
+      collections: []
+    exclude:
+      files: []
+      categories: []
+      tags: []
