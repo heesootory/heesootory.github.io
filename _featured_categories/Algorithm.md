@@ -15,7 +15,7 @@ description: >
 
 [Basic_Implement]: /basic_implement/
 [Graph]: /graph/
-[DynamicProgramming]: /DynamicProgramming/
+[DynamicProgramming]: /dynamicprogramming/
 
 
 
