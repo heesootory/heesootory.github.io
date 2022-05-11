@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Unix Basic
+subtitle: 부제목은????
+tags: 태그!!
 description: >
   유닉스 수업 자료
 sitemap: false
