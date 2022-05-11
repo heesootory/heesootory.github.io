@@ -1,29 +1,52 @@
----
-layout: null
----
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  {% for post in site.posts %}
-    <url>
-      <loc>{{ site.url }}{{ post.url }}</loc>
-      {% if post.lastmod == null %}
-        <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
-      {% else %}
-        <lastmod>{{ post.lastmod | date_to_xmlschema }}</lastmod>
-      {% endif %}
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
-      {% if post.sitemap.changefreq == null %}
-        <changefreq>weekly</changefreq>
-      {% else %}
-        <changefreq>{{ post.sitemap.changefreq }}</changefreq>
-      {% endif %}
 
-      {% if post.sitemap.priority == null %}
-          <priority>1.0</priority>
-      {% else %}
-        <priority>{{ post.sitemap.priority }}</priority>
-      {% endif %}
+<url>
+  <loc>https://heesootory.github.io/</loc>
+  <lastmod>2022-05-11T13:20:30+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://heesootory.github.io/about/</loc>
+  <lastmod>2022-05-11T13:20:30+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://heesootory.github.io/posts/</loc>
+  <lastmod>2022-05-11T13:20:30+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://heesootory.github.io/algorithm/</loc>
+  <lastmod>2022-05-11T13:20:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://heesootory.github.io/assets/CV.pdf</loc>
+  <lastmod>2022-05-11T13:20:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://heesootory.github.io/graph/</loc>
+  <lastmod>2022-05-11T13:20:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://heesootory.github.io/dynamicprogramming/</loc>
+  <lastmod>2022-05-11T13:20:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://heesootory.github.io/algorithm/dp/2022-04-15-BOJ_1699/</loc>
+  <lastmod>2022-05-11T13:20:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
 
-    </url>
-  {% endfor %}
+
 </urlset>
